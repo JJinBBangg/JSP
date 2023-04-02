@@ -1,0 +1,7 @@
+package com.study.ch05.bean;
+
+public class Bean01 {
+	private String name;
+	private int age;
+	private boolean married
+}

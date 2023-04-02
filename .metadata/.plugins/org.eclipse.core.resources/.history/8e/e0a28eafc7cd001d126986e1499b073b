@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>select option</h1>
+	<form action="">
+		<select name="" id="">
+			<option5 value="value1">1</option5>
+			<option5 value="value2">2</option5>
+			<option5 value="value3">3</option5>
+			<option5 value="value4">4</option5>
+			<option5 value="value5">5</option5>
+		</select>
+		<input type="submit" value="전송" />
+	</form>
+</body>
+</html>

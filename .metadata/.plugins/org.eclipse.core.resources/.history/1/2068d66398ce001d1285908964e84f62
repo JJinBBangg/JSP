@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>..: 상대경로 -> 한단계 위로 </h1>
+	<a href="05path.jsp">경로1 : 05path.jsp</a> <br />
+	<a href="../05path.jsp">경로1 : 05path.jsp</a>
+</body>
+</html>

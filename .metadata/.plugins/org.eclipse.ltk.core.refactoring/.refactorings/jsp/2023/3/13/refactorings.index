@@ -1,0 +1,44 @@
+1679903356739	Move 'index.jsp' to 'WEB-INF'
+1679903388678	Move 'ch03' to 'webapp'
+1679903392704	Move 'index.jsp' to 'webapp'
+1679905630397	Delete element
+1679905640704	Rename resource 'NewFile.jsp'
+1679963124963	Move '01script' to 'lecture'
+1679964474200	Copy file
+1679966429648	Rename resource 'lecture.02page-directive'
+1679966433746	Move '02page-directive' to 'lecture'
+1679966848749	Copy file
+1679966960420	Copy file
+1679967972488	Rename resource 'comment'
+1679967985780	Rename resource 'object.jsp'
+1679973447796	Rename resource 'queryString.jsp'
+1679973912787	Rename resource 'form.jsp'
+1679980368133	Rename resource '02inputjsp.jsp'
+1679984535846	Rename resource '06chechbox.jsp'
+1680052524156	Rename resource 'actionfrom.jsp'
+1680060905103	Rename resource 'include.jsp'
+1680061265110	Rename resource 'inclusee.jsp'
+1680066714433	Rename resource 'include.jsp'
+1680066836194	Rename resource '01include-teg'
+1680067567889	Move 2 resources to 'ch07'
+1680071404712	Rename resource 'param.jsp'
+1680135542790	Rename resource '01include-tag'
+1680135548774	Rename resource '01forward-tag'
+1680136305162	Move 9 resources to 'exam'
+1680136335699	Rename resource 'exan'
+1680136344220	Move 12 resources to 'exam'
+1680136988950	Delete element
+1680137043068	Copy file
+1680137046963	Copy file
+1680137570833	Rename resource 'path.jsp'
+1680142294878	Rename resource 'attribute-to.jsp'
+1680142561027	Rename resource '09attribute.jsp'
+1680153506456	Rename resource '12from.jsp'
+1680153523409	Rename resource '13to.jsp'
+1680154530791	Move '01session' to 'ch10'
+1680154551541	Move '01session' to 'lecture'
+1680225134144	Copy file
+1680227316472	Rename resource '08.jsp'
+1680230676076	Rename resource '13.jsp'
+1680232376153	Copy file
+1680232870200	Rename resource '15.jsp'
