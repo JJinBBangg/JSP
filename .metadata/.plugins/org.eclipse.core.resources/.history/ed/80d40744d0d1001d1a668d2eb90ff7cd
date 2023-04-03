@@ -1,0 +1,24 @@
+<%@page import="com.study.ch05.bean.Bean05"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	Bean05 o1 = new Bean05();
+	o1.setItems(List.of("java", "jsp"));
+	Bean05 o2 = new Bean05();
+	o2.setItems(List.of("spring", "bootstrap"));
+	List<Bean05> list = List.of(o1, o2);
+	%>
+	<p>${list1[0].item[0]}</p> <!-- java -->
+	<p>${list1[1].item[0]}</p> <!-- spring -->
+	<p>${list1[0].item[1]}</p> <!-- jsp -->
+	<p>${list1[1].item[1]}</p> <!-- bootstrap -->
+</body>
+</html>

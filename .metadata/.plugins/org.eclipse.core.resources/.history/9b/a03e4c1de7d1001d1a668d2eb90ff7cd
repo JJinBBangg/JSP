@@ -1,0 +1,25 @@
+<%@page import="com.study.ch05.bean.Bean03"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	Bean03 o1 = new Bean03();
+	o1.setFirstName("백호");
+	o1.setLastName("강");
+	Bean03 o2 = new Bean03();
+	o2.setFirstName("백호");
+	o2.setLastName("강");
+	Map<String, Bean03> map = Map.of(o1, o2);
+	
+	
+	%>
+	<p>${people.person1.fullName}</p>
+</body>
+</html>
