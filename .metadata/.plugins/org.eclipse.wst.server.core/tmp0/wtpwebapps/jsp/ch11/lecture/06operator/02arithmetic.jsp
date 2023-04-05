@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	pageContext.setAttribute("a", 30);
+	pageContext.setAttribute("b", 70);
+	pageContext.setAttribute("e", "one");
+	%>
+	<p>${a+b}</p> <!-- 100 -->
+	<p>${a+c}</p> <!-- 30  c를 0으로 판단 -->
+	<p>${c+d}</p> <!-- 0  c,d를 0으로 판단 -->
+	<p>${d}</p> <!-- null은 출력하지 않음. -->
+	<p>${e}</p> <!-- one -->
+	<p>${a+e}</p> <!-- number format exception -->
+</body>
+</html>

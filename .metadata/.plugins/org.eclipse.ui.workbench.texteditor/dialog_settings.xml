@@ -6,13 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="time"/>
+		<item key="selection" value="not"/>
 		<list key="findhistory">
+			<item value="not"/>
+			<item value="||"/>
+			<item value="&amp;&amp;"/>
+			<item value="&apos;"/>
+			<item value="hobby"/>
 			<item value="time"/>
 			<item value="movie"/>
 			<item value="java.util."/>
 		</list>
 		<list key="replacehistory">
+			<item value="!"/>
+			<item value="or"/>
+			<item value="and"/>
+			<item value="&quot;"/>
+			<item value="food"/>
 			<item value="song"/>
 			<item value=""/>
 		</list>
